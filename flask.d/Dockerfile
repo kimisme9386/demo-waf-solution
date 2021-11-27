@@ -10,7 +10,7 @@ RUN yum update -y && \
   pip3 install pipenv
 
 RUN pipenv --python 3 && \
-  pipenv sync
+  pipenv install
 
 EXPOSE 80
 
