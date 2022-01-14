@@ -3,6 +3,6 @@ const project = new AwsCdkTypeScriptApp({
   cdkVersion: '1.132.0',
   defaultReleaseBranch: 'main',
   name: 'test-awscdk-app',
-
+  depsUpgrade: false,
 });
 project.synth();
