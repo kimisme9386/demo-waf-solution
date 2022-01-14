@@ -16,8 +16,6 @@
     "test": "npx projen test",
     "test:update": "npx projen test:update",
     "test:watch": "npx projen test:watch",
-    "upgrade": "npx projen upgrade",
-    "upgrade-projen": "npx projen upgrade-projen",
     "projen": "npx projen"
   },
   "devDependencies": {
@@ -33,7 +31,6 @@
     "jest": "^27.3.1",
     "jest-junit": "^12",
     "json-schema": "^0.4.0",
-    "npm-check-updates": "^11",
     "projen": "^0.34.19",
     "ts-jest": "^27.0.7",
     "ts-node": "^9",
